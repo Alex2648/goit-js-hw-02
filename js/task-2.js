@@ -3,7 +3,7 @@ function formatMessage(message, maxLength) {
     return message;
   }
 
-  const trimmedMessage = message.substring(0, maxLength - 3);
+  const trimmedMessage = message.slice(0, maxLength - 3);
 
   return trimmedMessage + '...';
 }
